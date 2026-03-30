@@ -1,0 +1,17 @@
+# Phase 1: Core dependencies
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-core==0.2.38
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.9.1
+
+# Free LLM options (no API key needed)
+# Option 1: Ollama (local models - recommended)
+# Option 2: HuggingFace free models
+langchain-huggingface==0.0.3
+huggingface-hub==0.25.0
+
+# Later phases
+# langchain-anthropic  # Claude API (Phase 2+)
+# chromadb             # Vector DB (Phase 3)
