@@ -1,5 +1,5 @@
 
-from langchain_core.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate,ChatPromptTemplate
 
 formatString="Rajat is a good Man {myvar}"
 print(formatString.format(myvar="Best AI Engineer"))
