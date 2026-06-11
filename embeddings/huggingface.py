@@ -17,3 +17,4 @@ documents = [
 doc_vectors = embeddings.embed_documents(documents)
 print(f"\nTotal docs embedded: {len(doc_vectors)}")
 print(f"Each vector size: {len(doc_vectors[0])}")
+
